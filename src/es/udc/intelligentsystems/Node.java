@@ -1,7 +1,4 @@
-package es.udc.intelligentsystems.example;
-
-import es.udc.intelligentsystems.Action;
-import es.udc.intelligentsystems.State;
+package es.udc.intelligentsystems;
 
 public class Node {
     State state;
@@ -12,5 +9,17 @@ public class Node {
         this.state = state;
         this.parent = parent;
         this.action = action;
+    }
+
+    public State getState() {
+        return state;
+    }
+
+    public Node getParent() {
+        return parent;
+    }
+
+    public Action getAction() {
+        return action;
     }
 }

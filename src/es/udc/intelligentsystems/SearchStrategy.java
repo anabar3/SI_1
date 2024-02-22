@@ -6,5 +6,5 @@ public interface SearchStrategy {
      * @param p Problem to solve
      * @return Goal state found
      */
-    public abstract State solve(SearchProblem p) throws Exception;
+    public abstract Node[] solve(SearchProblem p) throws Exception;
 }
